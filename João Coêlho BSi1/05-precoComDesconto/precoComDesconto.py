@@ -4,10 +4,10 @@ def main():
 
     
 
-    valor1 = float(input("\n Digite o preço do produto "))
-    valor2 = float(input("\n Digite a porcentagem de descont do produto "))
+    preco = float(input("\n Digite o preço do produto "))
+    desconto = float(input("\n Digite a porcentagem de desconto do produto "))
     
-    resultado = calculo(valor1,valor2)
+    resultado = calculo(preco,desconto)
     print (f"\nO preço do produto será {resultado} Reais")
 
 
